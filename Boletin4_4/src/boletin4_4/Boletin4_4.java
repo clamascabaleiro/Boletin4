@@ -17,8 +17,8 @@ public class Boletin4_4 {
     public static void main(String[] args) {
         // TODO code application logic here
          Comida comida1 = new Comida();
-        comida1.engadirPolbo(10);
-        comida1.engadirPatacas(10);
+        comida1.engadirPolbo(50);
+        comida1.engadirPatacas(50);
         System.out.println(comida1.getPolbo());
         System.out.println(comida1.getPatacas());
         System.out.println("El número de clientes a los que se le puede " + "servir comida es de " + comida1.calcularClientes());
