@@ -10,38 +10,43 @@ package boletin4_4;
  * @author clamascabaleiro
  */
 public class Comida {
+
     private double polbo = 0;
     private double patacas = 0;
-    
-    public double getPolbo(){
+
+    public double getPolbo() {
         return polbo;
     }
-    public double getPatacas(){
+
+    public double getPatacas() {
         return patacas;
     }
-    public void setPolbo(double polbo){
+
+    public void setPolbo(double polbo) {
         this.polbo = polbo;
     }
-    public void setPatacas(double patacas){
+
+    public void setPatacas(double patacas) {
         this.patacas = patacas;
     }
-    
-    public void engadirPolbo(int x){
+
+    public void engadirPolbo(int x) {
         polbo += x;
     }
-    public void engadirPatacas(int x){
+
+    public void engadirPatacas(int x) {
         patacas += x;
     }
-    public double calcularClientes(){
+
+    public double calcularClientes() {
         double contador = 0;
         double polb = polbo;
         double patac = patacas;
-        while(polb >= 2 && patac >= 1){
+        while (polb >= 2 && patac >= 1) {
             contador += 3;
             polb -= 2;
             patac -= 1;
         }
-        return contador;    
+        return contador;
     }
 }
-
