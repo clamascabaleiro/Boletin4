@@ -16,6 +16,7 @@ public class Boletin4_4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
         Comida comida1 = new Comida();
         comida1.engadirPolbo(50);
         comida1.engadirPatacas(50);
